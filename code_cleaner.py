@@ -3,13 +3,37 @@ import numpy as np
 import csv
 from datetime import datetime, date
 
+#df = pd.read_csv('AllDatasV19.csv')
+#df1 = pd.read_csv('AllDatasV17.csv')
+#df['yearsPlayedOnLastTeam'] = df['yearSinceLastTransfer'] - df['yearSinceRetirement']
+#df['retirementAge'] = df['AgeNow'] - df['yearSinceRetirement']
+#df = df.drop(['AgeNow', 'yearSinceRetirement'], axis=1)
+#df = df[df['retiredOrNot'].str.contains('Retired', na=False)]
+#df['lastTransferFee'] = df['lastTransferFee'].str.replace("?","free transfer")
+#df['lastTransferFee'] = df['lastTransferFee'].str.replace("-","free transfer")
+#df.drop(df.columns[df.columns.str.contains('Unnamed',case = False)],axis = 1, inplace = True)
+#df = df.drop(['teams','birthdate','retirementDate','lastTransferDate','yearSinceRetirement','AgeNow', 'yearSinceLastTransfer'], axis=1)
+#def age(born):
+    #born = datetime.strptime(born, "%d/%m/%Y").date()
+    #today = date.today()
+    #return today.year - born.year - ((today.month, 
+                                      #today.day) < (born.month, 
+                                                    #born.day))
+  
+#df['yearSinceLastTransfer'] = df['lastTransferDate'].apply(age)
+#df['retirementDate'] = pd.to_datetime(df['retirementDate'], errors='coerce')
+
+#df = df.dropna(subset=['retirementDate'])
+#df = df.dropna(subset=['lastTransferDate'])
+#df = df.dropna(subset=['lastTransferFee'])
+#df = df.dropna(subset = ['birthdate'])
 #df = pd.read_csv('AllDatasV5.csv', parse_dates=['birthdate'], dayfirst=False)
-df = pd.read_csv('AllDatasV6.csv', parse_dates=['lastTransferDate'], dayfirst=False)
-#df2 = pd.read_csv('AllDatasV5.csv', parse_dates=['lastTransferDate'], dayfirst=False)
+#df = pd.read_csv('AllDatasV6.csv', parse_dates=['lastTransferDate'], dayfirst=False)
+#df = pd.read_csv('AllDatasV9.csv', parse_dates=['retirementDate'], dayfirst=False)
 
 #df['birthdate'] = pd.to_datetime(df['birthdate']).dt.strftime('%d/%m/%Y')
-df['lastTransferDate'] = pd.to_datetime(df['lastTransferDate']).dt.strftime('%d/%m/%Y')
-#df2['lastTransferDate'] = pd.to_datetime(df2['lastTransferDate']).dt.strftime('%d/%m/%Y')
+#df['lastTransferDate'] = pd.to_datetime(df['lastTransferDate']).dt.strftime('%d/%m/%Y')
+#df['retirementDate'] = pd.to_datetime(df['retirementDate']).dt.strftime('%d/%m/%Y')
 
 
 #df['birthdate'] = df['birthdate'].str.replace("                                                                    ","")
@@ -84,12 +108,12 @@ df['lastTransferDate'] = pd.to_datetime(df['lastTransferDate']).dt.strftime('%d/
 #df['lastTransferDate'] = df['lastTransferDate'].str.replace(" ","")
 #df['lastTransferDate'] = df['lastTransferDate'].str.replace(",","/")
 
-df.head()
+#df.head()
 
-df.shape
+#df.shape
 
-df.info()
+#df.info()
 
-df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\AllDatasV7.csv")
+#df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\AllDatasV20.csv", index=False)
 
 
