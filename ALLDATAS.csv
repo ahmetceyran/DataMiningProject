@@ -1,57 +1,56 @@
-playerprofile,position,retiredOrNot,lastTransferFee,retirementAge,yearsPlayedOnLastTeam
-Christophe Lauwers,Centre-Forward,Retired,free transfer,38,3
-Wagneau Eloi,Centre-Forward,Retired,free transfer,34,2
-Bas Vervaeke,Attacking Midfield,Retired,free transfer,32,1
-Jamaïque Vandamme,Attacking Midfield,Retired,free transfer,35,1
-Koen De Vleeschauwer,Right Midfield,Retired,free transfer,38,1
-Rocky Peeters,Central Midfield,Retired,free transfer,39,3
-Frédéric Vanderbiest,Defensive Midfield,Retired,free transfer,34,2
-Daan Vaesen,Defensive Midfield,Retired,free transfer,35,1
-Martijn Monteyne,Right-Back,Retired,free transfer,37,3
-Björn De Coninck,Left-Back,Retired,free transfer,32,1
-Wouter Biebauw,Goalkeeper,Retired,free transfer,38,2
-Jurgen Sierens,Goalkeeper,Retired,free transfer,36,1
-Ibrahim Tankary,Centre-Forward,Retired,free transfer,36,1
-Sylvio Breleur,Centre-Forward,Retired,free transfer,39,2
-Stijn Meert,Left Midfield,Retired,free transfer,35,1
-Nathan D'Haemers,Right Midfield,Retired,free transfer,38,2
-Tony Sergeant,Central Midfield,Retired,free transfer,35,4
-Ludwin Van Nieuwenhuyze,Defensive Midfield,Retired,free transfer,36,3
-Steve Watson,Right-Back,Retired,free transfer,35,2
-Thomas Gaardsöe,Centre-Back,Retired,free transfer,33,2
-Paul Robinson,Centre-Back,Retired,free transfer,39,6
-Riccardo Scimeca,Centre-Back,Retired,free transfer,35,4
-Heidar Helguson,Centre-Forward,Retired,free transfer,39,1
-Collins John,Centre-Forward,Retired,free transfer,37,3
-Luís Boa Morte,Left Midfield,Retired,free transfer,36,1
-Simon Elliott,Defensive Midfield,Retired,free transfer,38,1
-Liam Rosenior,Right-Back,Retired,free transfer,34,3
-Moritz Volz,Right-Back,Retired,free transfer,32,3
-Wayne Bridge,Left-Back,Retired,free transfer,34,1
-Dean Leacock,Centre-Back,Retired,free transfer,34,1
-Philippe Christanval,Centre-Back,Retired,free transfer,30,3
-Ian Pearce,Centre-Back,Retired,free transfer,36,1
-Alain Goma,Centre-Back,Retired,free transfer,37,3
-Carlos Bocanegra,Centre-Back,Retired,free transfer,36,2
-Julian Gray,Centre-Forward,Retired,free transfer,35,1
-Clinton Morrison,Centre-Forward,Retired,free transfer,40,3
-Emile Heskey,Centre-Forward,Retired,free transfer,38,1
-Jamie Carragher,Centre-Back,Retired,free transfer,35,17
-Nicklas Bendtner,Centre-Forward,Retired,free transfer,33,1
-Robin van Persie,Centre-Forward,Retired,free transfer,36,1
-Aleksandr Hleb,Attacking Midfield,Retired,free transfer,39,1
-Robert Pirès,Left Midfield,Retired,free transfer,42,1
-Freddie Ljungberg,Right Midfield,Retired,free transfer,38,1
-Patrick Cregg,Central Midfield,Retired,free transfer,33,1
-Abou Diaby,Central Midfield,Retired,free transfer,33,2
-Gilberto Silva,Defensive Midfield,Retired,free transfer,40,2
-Johan Djourou,Centre-Back,Retired,free transfer,34,1
-Pascal Cygan,Centre-Back,Retired,free transfer,37,2
-Philippe Senderos,Centre-Back,Retired,free transfer,35,1
+playerprofile,position,retiredOrNot,lastTransferFee,retirementAge,yearsPlayedOnLastTeam,gamesPlayedLastYear,gamesPlayedLast2Year,gamesPlayedLast3Year,injurysLast3Year
+Christophe Lauwers,Centre-Forward,Retired,free transfer,38,3,11,24,31,2
+Wagneau Eloi,Centre-Forward,Retired,free transfer,34,2,12,26,19,0
+Bas Vervaeke,Attacking Midfield,Retired,free transfer,32,1,31,29,41,1
+Jamaïque Vandamme,Attacking Midfield,Retired,free transfer,35,1,0,18,20,0
+Koen De Vleeschauwer,Right Midfield,Retired,free transfer,38,1,1,28,35,0
+Rocky Peeters,Central Midfield,Retired,free transfer,39,3,1,18,26,0
+Frédéric Vanderbiest,Defensive Midfield,Retired,free transfer,34,2,16,33,31,0
+Daan Vaesen,Defensive Midfield,Retired,free transfer,35,1,27,24,32,0
+Martijn Monteyne,Right-Back,Retired,free transfer,37,3,16,2,9,1
+Björn De Coninck,Left-Back,Retired,free transfer,32,1,13,8,25,1
+Wouter Biebauw,Goalkeeper,Retired,free transfer,38,2,8,0,27,0
+Jurgen Sierens,Goalkeeper,Retired,free transfer,36,1,6,15,42,0
+Ibrahim Tankary,Centre-Forward,Retired,free transfer,36,1,0,13,7,1
+Sylvio Breleur,Centre-Forward,Retired,free transfer,39,2,26,24,13,0
+Stijn Meert,Left Midfield,Retired,free transfer,35,1,28,13,13,0
+Nathan D'Haemers,Right Midfield,Retired,free transfer,38,2,19,34,21,0
+Tony Sergeant,Central Midfield,Retired,free transfer,35,4,0,4,27,2
+Ludwin Van Nieuwenhuyze,Defensive Midfield,Retired,free transfer,36,3,1,31,27,0
+Steve Watson,Right-Back,Retired,free transfer,35,2,23,25,24,0
+Thomas Gaardsöe,Centre-Back,Retired,free transfer,33,2,13,10,22,2
+Paul Robinson,Centre-Back,Retired,free transfer,39,6,4,25,27,0
+Riccardo Scimeca,Centre-Back,Retired,free transfer,35,4,6,6,10,1
+Heidar Helguson,Centre-Forward,Retired,free transfer,39,1,0,17,39,2
+Collins John,Centre-Forward,Retired,free transfer,37,3,2,2,4,0
+Luís Boa Morte,Left Midfield,Retired,free transfer,36,1,13,12,30,1
+Simon Elliott,Defensive Midfield,Retired,free transfer,38,1,13,32,29,0
+Liam Rosenior,Right-Back,Retired,free transfer,34,3,8,12,35,1
+Moritz Volz,Right-Back,Retired,free transfer,32,3,3,19,29,3
+Wayne Bridge,Left-Back,Retired,free transfer,34,1,12,42,11,1
+Dean Leacock,Centre-Back,Retired,free transfer,34,1,3,28,31,2
+Philippe Christanval,Centre-Back,Retired,free transfer,30,3,1,23,16,0
+Ian Pearce,Centre-Back,Retired,free transfer,36,1,1,4,11,0
+Alain Goma,Centre-Back,Retired,free transfer,37,3,15,20,29,0
+Carlos Bocanegra,Centre-Back,Retired,free transfer,36,2,18,12,30,0
+Julian Gray,Centre-Forward,Retired,free transfer,35,1,12,30,25,0
+Clinton Morrison,Centre-Forward,Retired,free transfer,40,3,25,25,36,0
+Emile Heskey,Centre-Forward,Retired,free transfer,38,1,31,18,18,1
+Jamie Carragher,Centre-Back,Retired,free transfer,35,17,38,31,38,2
+Nicklas Bendtner,Centre-Forward,Retired,free transfer,33,1,13,16,38,1
+Robin van Persie,Centre-Forward,Retired,free transfer,36,1,31,19,35,8
+Aleksandr Hleb,Attacking Midfield,Retired,free transfer,39,1,14,18,16,2
+Robert Pirès,Left Midfield,Retired,free transfer,42,1,8,13,37,1
+Freddie Ljungberg,Right Midfield,Retired,free transfer,38,1,4,18,30,1
+Patrick Cregg,Central Midfield,Retired,free transfer,33,1,10,40,15,1
+Abou Diaby,Central Midfield,Retired,free transfer,33,2,2,4,6,5
+Gilberto Silva,Defensive Midfield,Retired,free transfer,40,2,0,16,45,0
+Johan Djourou,Centre-Back,Retired,free transfer,34,1,12,7,6,5
+Pascal Cygan,Centre-Back,Retired,free transfer,37,2,31,26,6,1
+Philippe Senderos,Centre-Back,Retired,free transfer,35,1,3,13,10,6
 Kolo Touré,Centre-Back,Retired,free transfer,36,1
 Sol Campbell,Centre-Back,Retired,free transfer,37,1
 Manuel Almunia,Goalkeeper,Retired,free transfer,37,2
-Mart Poom,Goalkeeper,Retired,€100Th.,37,2
 Sylvan Ebanks-Blake,Centre-Forward,Retired,free transfer,33,1
 Ruud van Nistelrooy,Centre-Forward,Retired,free transfer,36,1
 Wayne Rooney,Centre-Forward,Retired,free transfer,36,1
