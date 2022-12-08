@@ -3,11 +3,11 @@ import numpy as np
 import csv
 from datetime import datetime, date
 
-df = pd.read_csv('ALLDATASV2.csv')
+df = pd.read_csv('ALLDATASV4.csv')
 #df1 = pd.read_csv('AllDatasV17.csv')
 #df['yearsPlayedOnLastTeam'] = df['yearSinceLastTransfer'] - df['yearSinceRetirement']
 #df['retirementAge'] = df['AgeNow'] - df['yearSinceRetirement']
-df = df.drop(['playerprofile'], axis=1)
+df = df.drop(['lastTransferFee'], axis=1)
 #df = df[df['retiredOrNot'].str.contains('Retired', na=False)]
 #df['lastTransferFee'] = df['lastTransferFee'].str.replace("?","free transfer")
 #df['lastTransferFee'] = df['lastTransferFee'].str.replace("-","free transfer")
@@ -114,6 +114,6 @@ df.shape
 
 df.info()
 
-df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV3.csv", index=False)
+df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV5.csv", index=False)
 
 
