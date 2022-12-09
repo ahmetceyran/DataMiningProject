@@ -3,7 +3,7 @@ import numpy as np
 import csv
 from datetime import datetime, date
 
-df = pd.read_csv('ALLDATASV6.csv')
+df = pd.read_csv('ALLDATASV7.csv')
 #df1 = pd.read_csv('AllDatasV17.csv')
 #df['yearsPlayedOnLastTeam'] = df['yearSinceLastTransfer'] - df['yearSinceRetirement']
 #df['retirementAge'] = df['AgeNow'] - df['yearSinceRetirement']
@@ -105,15 +105,19 @@ df = pd.read_csv('ALLDATASV6.csv')
 #df['retirementDate'] = df['retirementDate'].str.replace(" 7,","07/")
 #df['retirementDate'] = df['retirementDate'].str.replace(" 8,","08/")
 #df['retirementDate'] = df['retirementDate'].str.replace(" 9,","09/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 1,","01/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 2,","02/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 3,","03/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 4,","04/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 5,","05/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 6,","06/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 7,","07/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 8,","08/")
-#df['lastTransferDate'] = df['lastTransferDate'].str.replace(" 9,","09/")
+df['injurysLast3Year'] = df['injurysLast3Year'].astype(bool)
+df['injurysLast3Year'] = df['injurysLast3Year'].astype(bool)
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("2","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("3","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("4","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("5","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("6","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("7","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("8","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("9","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("10","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("11","true")
+#df['injurysLast3Year'] = df['injurysLast3Year'].astype(int).replace("12","true")
 #df['birthdate'] = df['birthdate'].str.replace(" \(.*\)","")
 #df['birthdate'] = df['birthdate'].str.replace(" ","")
 #df['birthdate'] = df['birthdate'].str.replace(",","/")
@@ -128,6 +132,6 @@ df.shape
 
 df.info()
 
-#df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV6.csv", index=False)
+df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV8.csv", index=False)
 
 
