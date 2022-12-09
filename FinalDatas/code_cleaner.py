@@ -3,11 +3,25 @@ import numpy as np
 import csv
 from datetime import datetime, date
 
-df = pd.read_csv('ALLDATASV4.csv')
+df = pd.read_csv('ALLDATASV6.csv')
 #df1 = pd.read_csv('AllDatasV17.csv')
 #df['yearsPlayedOnLastTeam'] = df['yearSinceLastTransfer'] - df['yearSinceRetirement']
 #df['retirementAge'] = df['AgeNow'] - df['yearSinceRetirement']
-df = df.drop(['lastTransferFee'], axis=1)
+#df['position'] = df['position'].str.replace("Centre-Forward","4")
+#df['position'] = df['position'].str.replace("Attacking Midfield","3")
+#df['position'] = df['position'].str.replace("Right Midfield","3")
+#df['position'] = df['position'].str.replace("Central Midfield","3")
+#df['position'] = df['position'].str.replace("Defensive Midfield","3")
+#df['position'] = df['position'].str.replace("Right-Back","2")
+#df['position'] = df['position'].str.replace("Left-Back","2")
+#df['position'] = df['position'].str.replace("Goalkeeper","1")
+#df['position'] = df['position'].str.replace("Left Midfield","3")
+#df['position'] = df['position'].str.replace("Centre-Back","2")
+#df['position'] = df['position'].str.replace("Right Winger","3")
+#df['position'] = df['position'].str.replace("Left Winger","3")
+#df['position'] = df['position'].str.replace("Second Striker","4")
+#df['position'] = df['position'].str.replace("Defender","2")
+#df['position'] = df['position'].str.replace("midfield","3")
 #df = df[df['retiredOrNot'].str.contains('Retired', na=False)]
 #df['lastTransferFee'] = df['lastTransferFee'].str.replace("?","free transfer")
 #df['lastTransferFee'] = df['lastTransferFee'].str.replace("-","free transfer")
@@ -114,6 +128,6 @@ df.shape
 
 df.info()
 
-df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV5.csv", index=False)
+#df.to_csv("C:\\Users\\ahmet\\GitHub\\DataMiningProject\\FinalDatas\\ALLDATASV6.csv", index=False)
 
 
